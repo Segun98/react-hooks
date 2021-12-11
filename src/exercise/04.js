@@ -11,6 +11,7 @@ function Board() {
   const [status, setStatus] = React.useState(
     calculateStatus(winner, squares, nextValue),
   )
+  //check
   // 🐨 We'll need the following bits of derived state:
   // - nextValue ('X' or 'O')
   // - winner ('X', 'O', or null)
