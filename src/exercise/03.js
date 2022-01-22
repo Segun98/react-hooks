@@ -3,14 +3,14 @@
 
 import * as React from 'react'
 
-function Name({name, onNameChange}) {
-  return (
-    <div>
-      <label htmlFor="name">Name: </label>
-      <input id="name" value={name} onChange={onNameChange} />
-    </div>
-  )
-}
+// function Name({name, onNameChange}) {
+//   return (
+//     <div>
+//       <label htmlFor="name">Name: </label>
+//       <input id="name" value={name} onChange={onNameChange} />
+//     </div>
+//   )
+// }
 
 // 🐨 accept `animal` and `onAnimalChange` props to this component
 function FavoriteAnimal({animal, onAnimalChange}) {
